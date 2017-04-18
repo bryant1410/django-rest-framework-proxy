@@ -18,13 +18,13 @@ Provides views to redirect incoming request to another API server.
 **TODO:**
 * Pass auth information from original client to backend API
 
-#Installation#
+# Installation #
 
 ```bash
 $ pip install django-rest-framework-proxy
 ```
 
-#Usage#
+# Usage #
 There are couple of ways to use proxies. You can either use provided views as is or subclass them.
 
 ## Settings ##
@@ -187,7 +187,7 @@ class ItemListProxy(ProxyView):
 ```
 
 
-#License#
+# License #
 
 Copyright (c) 2014, Tomi Pajunen
 All rights reserved.
